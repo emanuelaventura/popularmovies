@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- using the "Light Blue" Material Palette -->
+    <color name="primary">#607D8B</color>  <!-- 500 -->
+    <color name="primary_dark">#455A64</color>  <!-- 700 -->
+    <color name="primary_light">#CFD8DC</color> <!-- 100 -->
+    <color name="accent">#FFC107</color>
+
+    <color name="error">#DD2C00</color>
+    <color name="white">#FFFFFF</color>
+</resources>

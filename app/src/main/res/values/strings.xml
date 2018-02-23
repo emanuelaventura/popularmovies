@@ -1,0 +1,45 @@
+<resources>
+
+    <!--
+         Used in Action Bar, and in AndroidManifest to tell the device the name of this app.
+         It's to keep this short, so your launcher icon isn't displayed with "The greatest Wea"
+         or something similar.
+    -->
+    <string name="app_name" translatable="false">Popular Movies</string>
+
+    <string name="detail_activity_title">Details</string>
+
+    <string name="reviews_label">Reviews:</string>
+    <string name="videos_label">Trailers:</string>
+    <string name="release_date_label">Release:</string>
+    <string name="movie_rating_label">Rating:</string>
+
+    <!--
+         By convention, "action" denotes that this String will be used as the label for an Action,
+         typically from the action bar.  The ActionBar is limited real estate, so shorter is better.
+    -->
+    <string name="action_top_rated_order">Top rated</string>
+    <string name="action_popular_order">Popular</string>
+    <string name="action_favorite_order">Favorite</string>
+
+    <string name="title_activity_detail">Details</string>
+
+    <!-- Error messages -->
+    <string name="no_connection_error">An error has occurred. Please check the Internet Connection</string>
+    <string name="no_valid_data_error">There was an error retrieving data.</string>
+    <string name="no_favorite_movies_error">No favorite movies available</string>
+
+    <string name="no_movie_videos">No movie\'s trailers available.</string>
+    <string name="no_movie_videos_error">Unable to retrieve movie\'s trailers. Please, check the Internet connection.</string>
+
+    <string name="no_movie_reviews">No movie\'s reviews available.</string>
+    <string name="no_movie_reviews_error">Unable to retrieve movie\'s reviews. Please, check the Internet connection.</string>
+
+    <string name="movie_id_not_valid">The movie id isn\'t valid.</string>
+
+    <!--content description -->
+    <string name="content_description_poster_thumbnail">Movie Thumbnail Image</string>
+    <string name="content_description_logo">logo icon</string>
+    <string name="content_description_video_thumbnail">movie trailer thumbnail</string>
+    <string name="content_description_play_icon">play icon</string>
+</resources>

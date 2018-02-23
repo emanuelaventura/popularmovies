@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv_movie_review_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/cv_review_margin_top"
+    android:layout_marginBottom="@dimen/cv_review_margin_bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_movie_review_author"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/tv_review_author_padding"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_movie_review_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/tv_review_content_padding" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
